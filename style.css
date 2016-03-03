@@ -1,0 +1,90 @@
+body{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background: #B993D6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFFFFF;
+}
+
+h2{
+}
+
+h3{
+  padding-bottom: 10px;
+}
+
+img{
+  height: 90px;
+  padding: 10px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.leftSide{
+  padding-top: 2%;
+}
+
+.title{
+  font-size: 50px;
+}
+
+.enterLocation{
+  padding: 10px;
+}
+
+.humidity, .temp{
+  font-weight: normal;
+}
+
+.forecast img{
+  height: 60px;
+}
+
+input#location {
+  color: #000000;
+}
+
+div.currentWeather{
+    padding-bottom: 80px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+div.forecast{
+    border-style: solid;
+    border-width: medium;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.high, .low{
+  font-size: 16px;
+}
+
+.dayOfWeek, .temp{
+  color: #FFFFFF;
+}
+
+.templates {
+    display: none;
+}
+
+.remove-location {
+    font-size: 70px;
+    line-height: 0.8;
+    margin-top: -33px;
+    cursor: pointer;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.remove-location:hover {
+    color: #9b59b6;
+}
