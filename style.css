@@ -49,11 +49,13 @@ input#location {
 }
 
 div.currentWeather{
-    padding-bottom: 80px;
     border-style: solid;
     border-width: medium;
     border-color: #FFFFFF;
     color: #FFFFFF;
+    padding: 40px 0px 40px 0px;
+    height: 350px,;
+
 }
 
 div.forecast{
@@ -61,6 +63,8 @@ div.forecast{
     border-width: medium;
     border-color: #FFFFFF;
     color: #FFFFFF;
+    height: 350px,;
+
 }
 
 .high, .low{
