@@ -57,7 +57,7 @@ $('input').keypress(function (event) {
 
 function pullCurrentWeather(callback){
   $.ajax({
-    url: "http://api.wunderground.com/api/d8483e016960a875/geolookup/q/autoip.json",
+    url: "https://api.wunderground.com/api/d8483e016960a875/geolookup/q/autoip.json",
     type: "GET",
     success: function(data){
       appendZip(data);
@@ -92,7 +92,7 @@ function getWeatherAndForecast(providedLocation, callback) {
     // Forecast Req: |-----------> 1 == 2 ? false
 
     $.ajax({
-        url: "http://api.wunderground.com/api/d8483e016960a875/conditions/q/" + providedLocation + ".json",
+        url: "https://api.wunderground.com/api/d8483e016960a875/conditions/q/" + providedLocation + ".json",
         type: "GET",
         success: function(data){
             if (!data.current_observation && !data.response.error) {
